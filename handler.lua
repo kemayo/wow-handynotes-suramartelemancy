@@ -22,10 +22,24 @@ local function work_out_texture(atlas)
 end
 local enabled_texture = work_out_texture("MagePortalAlliance")
 local disabled_texture = work_out_texture("MagePortalHorde")
+local enabled_entrance_texture = work_out_texture("map-icon-SuramarDoor.tga")
+enabled_entrance_texture.r = 0
+enabled_entrance_texture.g = 0
+enabled_entrance_texture.b = 1
+local disabled_entrance_texture = work_out_texture("map-icon-SuramarDoor.tga")
+disabled_entrance_texture.r = 1
+disabled_entrance_texture.g = 0
+disabled_entrance_texture.b = 0
 
 local get_point_info = function(point)
     if point then
-        return point.label, IsQuestFlaggedCompleted(point.quest) and enabled_texture or disabled_texture
+        local texture
+        if IsQuestFlaggedCompleted(point.quest) then
+            texture = point.entrance and enabled_entrance_texture or enabled_texture
+        else
+            texture = point.entrance and disabled_entrance_texture or disabled_texture
+        end
+        return point.label, texture
     end
 end
 local get_point_info_by_coord = function(mapFile, coord)
@@ -148,7 +162,7 @@ do
         if not t then return nil end
         local state, value = next(t, prestate)
         while state do -- Have we reached the end of this zone?
-            if value then
+            if value and (ns.db.entrances or not value.entrance) then
                 local label, icon = get_point_info(value)
                 return state, nil, icon, ns.db.icon_scale, ns.db.icon_alpha
             end

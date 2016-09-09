@@ -4,6 +4,7 @@ ns.defaults = {
     profile = {
         icon_scale = 1.5,
         icon_alpha = 1.0,
+        entrances = true,
     },
 }
 
@@ -39,6 +40,19 @@ ns.options = {
                     desc = "The alpha transparency of the icons",
                     min = 0, max = 1, step = 0.01,
                     order = 30,
+                },
+            },
+        },
+        display = {
+            type = "group",
+            name = "What to display",
+            inline = true,
+            args = {
+                entrances = {
+                    type = "toggle",
+                    name = "Show entrances",
+                    desc = "Show icons for the entrances to the portal areas, as well as just the portal locations",
+                    order = 0,
                 },
             },
         },

@@ -24,5 +24,10 @@ ns.points = {
         [38197713] = { quest=41575, label="Felsoul Hold", },
         [46668100] = { quest=42487, label="Waning Crescent", },
         [64006040] = { quest=44084, label="Twilight Vineyards", },
+        -- entrances
+        [22903580] = { quest=42230, entrance=true, label="Falanaar (entrance)" },
+        [35808210] = { quest=41575, entrance=true, label="Felsoul Hold (entrance)" },
+        [27802230] = { quest=43808, entrance=true, label="Moon Guard (entrance)" },
+        [42606170] = { quest=43813, entrance=true, label="Sanctum of Order (entrance)" },
     },
 }
