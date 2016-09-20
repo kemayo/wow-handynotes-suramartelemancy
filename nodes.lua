@@ -30,4 +30,7 @@ ns.points = {
         [27802230] = { quest=43808, entrance=true, label="Moon Guard (entrance)" },
         [42606170] = { quest=43813, entrance=true, label="Sanctum of Order (entrance)" },
     },
+    ["FalanaarTunnels"] = { -- Suramar
+        [40901350] = { quest=42230, label="Falanaar", level=32 },
+    },
 }
