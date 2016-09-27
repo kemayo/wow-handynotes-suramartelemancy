@@ -21,16 +21,18 @@ ns.points = {
         [36204710] = { quest=40956, label="Ruins of Elune'eth", },
         [43406070] = { quest=43813, label="Sanctum of Order", },
         [43607910] = { quest=43811, label="Lunastre Estate", },
-        [39107630] = { quest=41575, label="Felsoul Hold", },
+        [35808210] = { quest=41575, label="Felsoul Hold", },
         [47508200] = { quest=42487, label="Waning Crescent", },
         [64006040] = { quest=44084, label="Twilight Vineyards", },
         -- entrances
         [22903580] = { quest=42230, entrance=true, label="Falanaar (entrance)" },
-        [35808210] = { quest=41575, entrance=true, label="Felsoul Hold (entrance)" },
         [27802230] = { quest=43808, entrance=true, label="Moon Guard (entrance)" },
         [42606170] = { quest=43813, entrance=true, label="Sanctum of Order (entrance)" },
     },
-    ["FalanaarTunnels"] = { -- Suramar
+    ["FalanaarTunnels"] = { -- Fal'adore
         [40901350] = { quest=42230, label="Falanaar", level=32 },
+    },
+    ["SuramarLegionScar"] = { -- The Fel Breach
+        [53403680] = { quest=41575, label="Felsoul Hold", },
     },
 }
