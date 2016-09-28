@@ -16,7 +16,7 @@ ns.points = {
     --]]
     ["Suramar"] = {
         [30801090] = { quest=43808, label="Moon Guard Stronghold", },
-        [21502990] = { quest=42230, label="Falanaar", },
+        [22903580] = { quest=42230, label="Falanaar", },
         [42203540] = { quest=43809, label="Tel'anor", },
         [36204710] = { quest=40956, label="Ruins of Elune'eth", },
         [43406070] = { quest=43813, label="Sanctum of Order", },
@@ -25,7 +25,6 @@ ns.points = {
         [47508200] = { quest=42487, label="Waning Crescent", },
         [64006040] = { quest=44084, label="Twilight Vineyards", },
         -- entrances
-        [22903580] = { quest=42230, entrance=true, label="Falanaar (entrance)" },
         [27802230] = { quest=43808, entrance=true, label="Moon Guard (entrance)" },
         [42606170] = { quest=43813, entrance=true, label="Sanctum of Order (entrance)" },
     },
