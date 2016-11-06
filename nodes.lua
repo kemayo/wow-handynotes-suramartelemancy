@@ -22,7 +22,8 @@ ns.points = {
         [43406070] = { quest=43813, label="Sanctum of Order", },
         [43607910] = { quest=43811, label="Lunastre Estate", },
         [35808210] = { quest=41575, label="Felsoul Hold", },
-        [47508200] = { quest=42487, label="Waning Crescent", },
+        [47508200] = { quest=42487, label="Waning Crescent", hide_after=43569, },
+        [52007800] = { quest=42889, label="Evermoon Terrace", hide_before=43569, },
         [64006040] = { quest=44084, label="Twilight Vineyards", },
         -- entrances
         [27802230] = { quest=43808, entrance=true, label="Moon Guard (entrance)" },
