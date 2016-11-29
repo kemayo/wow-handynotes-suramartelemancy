@@ -25,6 +25,7 @@ ns.points = {
         [47508200] = { quest=42487, label="Waning Crescent", hide_after=43569, },
         [52007800] = { quest=42889, label="Evermoon Terrace", hide_before=43569, },
         [64006040] = { quest=44084, label="Twilight Vineyards", },
+        [54496943] = { quest=44740, label="Astravar Harbor", hide_before=44738, }, -- storyline: Staging Point, hidden until Full Might of the Elves
         -- entrances
         [27802230] = { quest=43808, entrance=true, label="Moon Guard (entrance)" },
         [42606170] = { quest=43813, entrance=true, label="Sanctum of Order (entrance)" },
