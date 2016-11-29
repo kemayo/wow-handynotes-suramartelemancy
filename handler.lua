@@ -186,7 +186,7 @@ do
         if point.hide_after and IsQuestFlaggedCompleted(point.hide_after) then
             return false
         end
-        if point.hide_before and not IsQuestFlaggedCompleted(point.hide_before) then
+        if point.hide_before and not ns.db.upcoming and not IsQuestFlaggedCompleted(point.hide_before) then
             return false
         end
         return true

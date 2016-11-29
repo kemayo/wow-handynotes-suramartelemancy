@@ -5,6 +5,7 @@ ns.defaults = {
         icon_scale = 1.5,
         icon_alpha = 1.0,
         entrances = true,
+        upcoming = false,
     },
 }
 
@@ -53,6 +54,12 @@ ns.options = {
                     name = "Show entrances",
                     desc = "Show icons for the entrances to the portal areas, as well as just the portal locations",
                     order = 0,
+                },
+                upcoming = {
+                    type = "toggle",
+                    name = "Show upcoming portals",
+                    desc = "Show the upcoming portals, which can't yet be activated because you're not on the right quest step",
+                    order = 10,
                 },
             },
         },
