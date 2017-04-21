@@ -9,6 +9,16 @@
 ## SavedVariables: HandyNotes_SuramarTelemancyDB
 ## RequiredDeps: HandyNotes
 
+# Locale files
+Locales\enUS.lua
+Locales\deDE.lua
+Locales\itIT.lua
+Locales\ptBR.lua
+Locales\esMX.lua
+Locales\frFR.lua
+Locales\ruRU.lua
+Locales\zhTW.lua
+
 handler.lua
 config.lua
 nodes.lua

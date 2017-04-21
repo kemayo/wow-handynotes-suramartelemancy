@@ -2,7 +2,7 @@ local myname, ns = ...
 
 local HandyNotes = LibStub("AceAddon-3.0"):GetAddon("HandyNotes")
 local HL = LibStub("AceAddon-3.0"):NewAddon(myname, "AceEvent-3.0")
--- local L = LibStub("AceLocale-3.0"):GetLocale(myname, true)
+local L = LibStub("AceLocale-3.0"):GetLocale(myname, false)
 ns.HL = HL
 
 local next = next
