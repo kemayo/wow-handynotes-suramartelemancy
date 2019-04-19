@@ -16,7 +16,7 @@ local L = LibStub("AceLocale-3.0"):GetLocale(myname, false)
     },
 --]]
 ns.points = {
-    ["Suramar"] = {
+    [680] = { -- Suramar
         [36204710] = { quest=40956, label=L["Ruins of Elune'eth"], hide_before=40956, }, -- Ruins of Elune'eth, storyline: Survey Says...
         [22903580] = { quest=42230, label=L["Falanaar"], hide_before=42228, }, -- Falanaar, storyline: Valewalker's Burden, hidden until Hidden City
         [47508200] = { quest=42487, label=L["Waning Crescent"], hide_after=43569, hide_before=42486, }, --Waning Crescent, storyline: Friends on the Outside, hidden until Little One Lost, hidden after Arluin's Request
@@ -33,10 +33,10 @@ ns.points = {
         [27802230] = { quest=43808, entrance=true, label=L["Moon Guard (entrance)"], hide_before=40956, }, -- Moon Guard (entrance)
         [42606170] = { quest=43813, entrance=true, label=L["Sanctum of Order (entrance)"], hide_before=40956, }, -- Sanctum of Order (entrance)
     },
-    ["FalanaarTunnels"] = { -- Fal'adore
-        [40901350] = { quest=42230, label=L["Falanaar"], level=32, hide_before=42228 }, -- Falanaar
+    [684] = { -- Fal'adore
+        [40901350] = { quest=42230, label=L["Falanaar"], hide_before=42228 }, -- Falanaar
     },
-    ["SuramarLegionScar"] = { -- The Fel Breach
+    [682] = { -- The Fel Breach
         [53403680] = { quest=41575, label=L["Felsoul Hold"], hide_before=40956 }, -- Felsoul Hold
     },
 }
