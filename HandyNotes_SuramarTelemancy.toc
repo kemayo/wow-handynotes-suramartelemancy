@@ -2,7 +2,7 @@
 ## Title: HandyNotes_SuramarTelemancy
 ## Notes: Teleporters in Suramar? Sure, why not?
 ## Author: Kemayo
-## Version: 1
+## Version: @project-version@
 ## DefaultState: enabled
 ## X-Category: Achievements
 ## X-eMail: kemayo @ gmail DOT com
