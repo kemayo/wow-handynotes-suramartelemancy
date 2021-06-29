@@ -1,4 +1,4 @@
-## Interface: 90002
+## Interface: 90100
 ## Title: HandyNotes_SuramarTelemancy
 ## Notes: Teleporters in Suramar? Sure, why not?
 ## Author: Kemayo
@@ -6,6 +6,7 @@
 ## DefaultState: enabled
 ## X-Category: Achievements
 ## X-eMail: kemayo @ gmail DOT com
+## X-Curse-Project-ID: 102166
 ## SavedVariables: HandyNotes_SuramarTelemancyDB
 ## RequiredDeps: HandyNotes
 
