@@ -1,5 +1,5 @@
-## Interface: 90105
-## Title: HandyNotes_SuramarTelemancy
+## Interface: 90207
+## Title: HandyNotes: Suramar Telemancy
 ## Notes: Teleporters in Suramar? Sure, why not?
 ## Author: Kemayo
 ## Version: @project-version@
